@@ -1,0 +1,12 @@
+C:\Users\vmuser> cd .\Desktop\
+PS C:\Users\vmuser\Desktop> cd .\prometheus-2.37.0.windows-amd64\
+PS C:\Users\vmuser\Desktop\prometheus-2.37.0.windows-amd64> ./prometheus --config.file=prometheus.yml
+ts=2022-08-30T06:22:24.082Z caller=main.go:491 level=info msg="No time or size retention was set so using the default time retention" duration=15d
+ts=2022-08-30T06:22:24.082Z caller=main.go:535 level=info msg="Starting Prometheus Server" mode=server version="(version=2.37.0, branch=HEAD, revision=b41e0750abf5cc18d8233161560731de05199330)"
+ts=2022-08-30T06:22:24.082Z caller=main.go:540 level=info build_context="(go=go1.18.4, user=root@d9a1f9c0ed21, date=20220714-15:19:07)"
+ts=2022-08-30T06:22:24.082Z caller=main.go:541 level=info host_details=(windows)
+ts=2022-08-30T06:22:24.082Z caller=main.go:542 level=info fd_limits=N/A
+ts=2022-08-30T06:22:24.082Z caller=main.go:543 level=info vm_limits=N/A
+ts=2022-08-30T06:22:24.094Z caller=web.go:553 level=info component=web msg="Start listening for connections" address=0.0.0.0:9090
+ts=2022-08-30T06:22:24.094Z caller=main.go:786 level=error msg="Unable to start web listener" err="listen tcp 0.0.0.0:9090: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."
+PS C:\Users\vmuser\Desktop\prometheus-2.37.0.windows-amd64>
